@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Set up monitor
+sh $HOME/.screenlayout/desk.sh
+
+# Set DPI
+xrdb -merge ~/.Xresources
+
+# Set touch screen to only main display
+xinput --map-to-output 'ELAN2D25:00 04F3:2D25' eDP-1
+
+# Start window manager
+exec i3
