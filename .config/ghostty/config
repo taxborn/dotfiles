@@ -1,0 +1,6 @@
+font-family = JetBrainsMonoNL Nerd Font Mono
+
+window-padding-x = 4
+window-padding-y = 4
+
+theme = catppuccin-mocha.conf

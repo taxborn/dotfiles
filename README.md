@@ -2,11 +2,11 @@
 These are my Linux dotfiles
 
 # Programs
-- [ ] tmux
+- [X] tmux - Ensure tpm is installed (`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`)
 - [ ] neovim
 - [ ] ghostty
 - [ ] fish
-- [ ] xdg-user-dirs
+- [X] xdg-user-dirs (`/~` layout)
 
 ## wayland
 - [ ] hyprland
