@@ -3,18 +3,18 @@ local function enable_transparency()
 end
 
 return {
-    { 
-	"catppuccin/nvim",
-	name = "catppuccin",
-	priority = 1000,
-	config = function()
-	    vim.cmd.colorscheme "catppuccin"
-	    enable_transparency()
-	end
+    {
+        "catppuccin/nvim",
+        name = "catppuccin",
+        priority = 1000,
+        config = function()
+            vim.cmd.colorscheme "catppuccin"
+            enable_transparency()
+        end
     },
     {
-	"nvim-lualine/lualine.nvim",
-	dependencies = { "nvim-tree/nvim-web-devicons" },
-	opts = { theme = "catppuccin" }
+        "nvim-lualine/lualine.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        opts = { theme = "catppuccin" }
     }
 }

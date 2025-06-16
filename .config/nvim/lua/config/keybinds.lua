@@ -16,14 +16,14 @@ vim.keymap.set("v", "<", "<gv", opts)
 vim.keymap.set("v", ">", ">gv", opts)
 
 -- Clipboard
--- -- Pase without replacing clipboard content
+-- Paste without replacing clipboard content
 vim.keymap.set("x", "<leader>p", [["_dP]])
 vim.keymap.set("v", "p", '"_dp', opts)
 vim.keymap.set({ "n", "v" }, "<leader>d", [["_dP]])
 vim.keymap.set("i", "<C-c>", '<Esc>')
 vim.keymap.set("n", "<C-c>", ':nohl<CR>')
 
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
+vim.keymap.set("n", "<leader>F", vim.lsp.buf.format)
 vim.keymap.set("n", "x", '"_x', opts) -- no deleted chars to clipboard
 
 -- tabs
