@@ -50,7 +50,7 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.scrolloff = 5
 
 -- max line width
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "80,100"
 vim.opt.clipboard:append("unnamedplus")
 
 vim.opt.isfname:append("@-@") -- ???

@@ -20,6 +20,7 @@ return {
 
             lspconfig.lua_ls.setup {}
             lspconfig.zls.setup {}
+            lspconfig.rust_analyzer.setup {}
         end,
     },
 }
