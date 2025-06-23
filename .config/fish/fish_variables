@@ -1,7 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export SSH_AGENT_PID:4362
-SETUVAR --export SSH_AUTH_SOCK:/tmp/ssh\x2dXXXXXXyjxNk0/agent\x2e4361
+SETUVAR --export SSH_AGENT_PID:2937
+SETUVAR --export SSH_AUTH_SOCK:/tmp/ssh\x2dXXXXXXCrqvSx/agent\x2e2936
+SETUVAR --export SSH_AGENT_PID:2654
+SETUVAR --export SSH_AUTH_SOCK:/tmp/ssh\x2dXXXXXXXXo2GP/agent\x2e2653
 SETUVAR __fish_initialized:3800
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
@@ -32,4 +34,4 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/taxborn/Dev/Clones/zls/zig\x2dout/bin\x1e/home/taxborn/Dev/Compilers/zig\x2dx86_64\x2dlinux\x2d0\x2e15\x2e0\x2ddev\x2e822\x2bdd75e7bcb
+SETUVAR fish_user_paths:/home/taxborn/Dev/Clones/zls/zig\x2dout/bin\x1e/home/taxborn/Dev/Clones/zig\x2dx86_64\x2dlinux\x2d0\x2e14\x2e1
